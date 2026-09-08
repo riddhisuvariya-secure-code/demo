@@ -25,3 +25,11 @@ google-genai
 xai-sdk
 strawberry-graphql[fastapi]==0.219.2
 python>=3.11
+# --- injected typosquats (SHOULD be flagged) ---
+reqeusts==2.31.0        # transposition of `requests`      -> HIGH
+aiohtp                  # dropped 't' from `aiohttp`       -> HIGH
+pandsa                  # transposition of `pandas`        -> HIGH
+pydantci               # transposition of `pydantic`      -> HIGH
+python-dotnev==1.0.0    # transposition of `python-dotenv` -> HIGH
+pyyaml6                 # `pyyaml` + trailing digit        -> HIGH
+openai-python           # combosquat around `openai`       -> MEDIUM
