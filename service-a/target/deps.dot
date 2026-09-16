@@ -1,0 +1,4 @@
+digraph "com.example:dependency-management-demo:jar:1.0.0" { 
+	"com.example:dependency-management-demo:jar:1.0.0" -> "org.apache.logging.log4j:log4j-core:jar:2.23.1:compile" ; 
+	"org.apache.logging.log4j:log4j-core:jar:2.23.1:compile" -> "org.apache.logging.log4j:log4j-api:jar:2.23.1:compile" ; 
+ } 
